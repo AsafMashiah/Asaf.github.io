@@ -6,7 +6,8 @@
   </head>
 <body>
 
-<p>asaf test1</p>
+<p>asaf test2</p>
+
 
 
 </body>
@@ -25,18 +26,24 @@ function _arrayLikeToArray(t,e){(null==e||e>t.length)&&(e=t.length);for(var o=0,
 var mediaSource = {keys: ["my_media_source"], defaultValue: "my_default_media_source"};
 var campaign = {keys: ["my_campaign"], defaultValue: "my_default_campaign"};
 
-//Calling the function after embedding the code will be through a global parameter on the window object called window.AF_SMART_SCRIPT
-//Onelink URL is generated
+var af_generate_referrer = {
+  paramKey: "af_generate_referrer",
+  keys: [],
+  defaultValue: "true"
+};
+
 var result = window.AF_SMART_SCRIPT.generateDirectClickURL({
-  afParameters:{
+  afParameters: {
     mediaSource: mediaSource,
     campaign: campaign,
+    afCustom: [
+      af_generate_referrer
+    ]
   },
   platform: 'steam',
   app_id: '123456',
-  af_generate_referrer: true,
-  redirectURL:'https://store.steampowered.com/app/440/Team_Fortress_2/'
-})
+  redirectURL: 'https://store.steampowered.com/app/440/Team_Fortress_2/'
+});
 
 
 // If needed, you can download the script from: https://onelinksmartscript.appsflyersdk.com/onelink-smart-script-latest.js
