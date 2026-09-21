@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>שיבוץ 7.10–3.11</title>
+<style>
+:root{--ink:#1f2a2e;--soft:#6b7478;--line:#d9d9cf;--ok:#2e7d4f;--okbg:#e4f2e9;--edge:#a3690b;--edgebg:#fbf1dc;--bad:#b3382c;--badbg:#fbe7e3;--mg:#3d4a25}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Heebo','Rubik',system-ui,sans-serif;color:var(--ink);background:#fff;padding:28px 20px;font-size:13px;line-height:1.5}
+h1{font-size:24px;font-weight:800;border-bottom:3px solid var(--ink);padding-bottom:8px}
+.sub{color:var(--soft);margin:6px 0 14px}
+.kpis{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+.kpi{border:1px solid var(--line);border-radius:8px;padding:6px 12px;font-size:12px}
+.kpi.bad{border-color:var(--bad);color:var(--bad)} .kpi.edge{border-color:var(--edge);color:var(--edge)} .kpi.ok{border-color:var(--ok);color:var(--ok)}
+h2{font-size:17px;margin:22px 0 8px}
+.tw{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:11.5px;min-width:760px}
+th{background:var(--ink);color:#fff;padding:7px 8px;text-align:right;font-weight:600;font-size:11px}
+td{padding:6px 8px;border:1px solid var(--line);vertical-align:top}
+td.date{font-weight:700;white-space:nowrap} td.date span{display:block;font-size:10px;color:var(--soft);font-weight:500}
+td.num{font-weight:700;text-align:center;width:44px}
+td.mg{color:var(--mg);font-weight:600} td b{color:var(--mg)}
+.st{display:inline-block;border-radius:5px;padding:2px 7px;font-size:10.5px;font-weight:700;white-space:nowrap}
+tr.ok .st{background:var(--okbg);color:var(--ok)} tr.edge .st{background:var(--edgebg);color:var(--edge)} tr.bad .st{background:var(--badbg);color:var(--bad)}
+tr.edge{background:#fffcf3} tr.bad{background:var(--badbg)} tr.wk td.date{background:#f4f4ef}
+.people{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:8px}
+.p{border:1px solid var(--line);border-radius:9px;padding:10px 14px}
+.p h3{font-size:14px;display:flex;align-items:center;gap:6px}
+.p h3 em{font-style:normal;font-size:10.5px;background:#eef1e4;color:var(--mg);border-radius:4px;padding:0 6px}
+.p h3 .t{margin-inline-start:auto;font-weight:600;color:var(--soft);font-size:12px}
+.p p{margin-top:4px;color:#3a4550} .p p b{color:var(--ink)}
+.bal{display:inline-block;border-radius:5px;padding:1px 8px;font-size:11px;font-weight:600}
+.b0{background:var(--okbg);color:var(--ok)} .bp{background:#e7edf5;color:#2a4262} .bm{background:var(--badbg);color:var(--bad)}
+.note{color:var(--soft);font-size:12px;margin-top:16px}
+@media print{body{padding:0}}
+</style>
+</head>
+<body>
+<h1>שיבוץ ימי בית — 7.10 עד 3.11</h1>
+<div class="sub">15 אנשים · 4 מפקדים (מודגשים) · דרישה: מינימום 8 בבסיס ומפקד אחד בכל יום · מכסה 12 ימי בית + יתרה מתשרי</div>
+<div class="kpis"><span class="kpi bad">ימים מתחת ל-8 או בלי מפקד: <b>11</b></span><span class="kpi edge">ימים על בדיוק 8: <b>3</b></span><span class="kpi ok">ימים תקינים: <b>14</b></span></div>
+<h2>לפי יום</h2>
+<div class="tw"><table>
+<thead><tr><th>תאריך</th><th>בבסיס</th><th>בבית</th><th>מי בבסיס</th><th>מי בבית</th><th>מפקדים בבסיס</th><th>מצב</th></tr></thead>
+<tbody>
+<tr class="ok"><td class="date">7.10<span>יום ד׳</span></td><td class="num">14</td><td class="num">1</td><td><b>אביעד פוקס</b>, <b>דודו פרץ</b>, <b>איתי לנקרי</b>, <b>עקיבא</b>, אוהד משולם, אסף משיח, אלירן בוזגלו, אלעד ברוקנטל, דניאל סוחנוב, רן פרטוק, שילה סעדה, יפתח גונן, אברהם מנגיסטו, יונתן בוסביב</td><td>ליאל דיין</td><td class="mg">אביעד פוקס, דודו פרץ, איתי לנקרי, עקיבא</td><td><span class="st">תקין</span></td></tr>
+<tr class="ok"><td class="date">8.10<span>יום ה׳</span></td><td class="num">10</td><td class="num">5</td><td><b>איתי לנקרי</b>, <b>עקיבא</b>, אסף משיח, אלירן בוזגלו, אלעד ברוקנטל, דניאל סוחנוב, רן פרטוק, שילה סעדה, יפתח גונן, יונתן בוסביב</td><td><b>אביעד פוקס</b>, <b>דודו פרץ</b>, אוהד משולם, ליאל דיין, אברהם מנגיסטו</td><td class="mg">איתי לנקרי, עקיבא</td><td><span class="st">תקין</span></td></tr>
+<tr class="ok wk"><td class="date">9.10<span>יום ו׳</span></td><td class="num">9</td><td class="num">6</td><td><b>איתי לנקרי</b>, <b>עקיבא</b>, אסף משיח, אלירן בוזגלו, ליאל דיין, דניאל סוחנוב, רן פרטוק, שילה סעדה, יונתן בוסביב</td><td><b>אביעד פוקס</b>, <b>דודו פרץ</b>, אוהד משולם, אלעד ברוקנטל, יפתח גונן, אברהם מנגיסטו</td><td class="mg">איתי לנקרי, עקיבא</td><td><span class="st">תקין</span></td></tr>
+<tr class="ok wk"><td class="date">10.10<span>יום שבת</span></td><td class="num">9</td><td class="num">6</td><td><b>איתי לנקרי</b>, <b>עקיבא</b>, אסף משיח, אלירן בוזגלו, ליאל דיין, דניאל סוחנוב, רן פרטוק, שילה סעדה, יונתן בוסביב</td><td><b>אביעד פוקס</b>, <b>דודו פרץ</b>, אוהד משולם, אלעד ברוקנטל, יפתח גונן, אברהם מנגיסטו</td><td class="mg">איתי לנקרי, עקיבא</td><td><span class="st">תקין</span></td></tr>
+<tr class="ok"><td class="date">11.10<span>יום א׳</span></td><td class="num">11</td><td class="num">4</td><td><b>דודו פרץ</b>, <b>איתי לנקרי</b>, <b>עקיבא</b>, אוהד משולם, אסף משיח, אלירן בוזגלו, ליאל דיין, אלעד ברוקנטל, דניאל סוחנוב, רן פרטוק, אברהם מנגיסטו</td><td><b>אביעד פוקס</b>, שילה סעדה, יפתח גונן, יונתן בוסביב</td><td class="mg">דודו פרץ, איתי לנקרי, עקיבא</td><td><span class="st">תקין</span></td></tr>
+<tr class="ok"><td class="date">12.10<span>יום ב׳</span></td><td class="num">12</td><td class="num">3</td><td><b>אביעד פוקס</b>, <b>דודו פרץ</b>, <b>איתי לנקרי</b>, <b>עקיבא</b>, אוהד משולם, אסף משיח, ליאל דיין, אלעד ברוקנטל, דניאל סוחנוב, רן פרטוק, יפתח גונן, אברהם מנגיסטו</td><td>אלירן בוזגלו, שילה סעדה, יונתן בוסביב</td><td class="mg">אביעד פוקס, דודו פרץ, איתי לנקרי, עקיבא</td><td><span class="st">תקין</span></td></tr>
+<tr class="bad"><td class="date">13.10<span>יום ג׳</span></td><td class="num">4</td><td class="num">11</td><td><b>דודו פרץ</b>, אוהד משולם, אסף משיח, יפתח גונן</td><td><b>אביעד פוקס</b>, <b>איתי לנקרי</b>, <b>עקיבא</b>, אלירן בוזגלו, ליאל דיין, אלעד ברוקנטל, דניאל סוחנוב, רן פרטוק, שילה סעדה, אברהם מנגיסטו, יונתן בוסביב</td><td class="mg">דודו פרץ</td><td><span class="st">חסרים 4</span></td></tr>
+<tr class="bad"><td class="date">14.10<span>יום ד׳</span></td><td class="num">4</td><td class="num">11</td><td><b>אביעד פוקס</b>, <b>דודו פרץ</b>, אוהד משולם, יפתח גונן</td><td><b>איתי לנקרי</b>, <b>עקיבא</b>, אסף משיח, אלירן בוזגלו, ליאל דיין, אלעד ברוקנטל, דניאל סוחנוב, רן פרטוק, שילה סעדה, אברהם מנגיסטו, יונתן בוסביב</td><td class="mg">אביעד פוקס, דודו פרץ</td><td><span class="st">חסרים 4</span></td></tr>
+<tr class="bad"><td class="date">15.10<span>יום ה׳</span></td><td class="num">6</td><td class="num">9</td><td><b>אביעד פוקס</b>, <b>דודו פרץ</b>, אוהד משולם, יפתח גונן, אברהם מנגיסטו, יונתן בוסביב</td><td><b>איתי לנקרי</b>, <b>עקיבא</b>, אסף משיח, אלירן בוזגלו, ליאל דיין, אלעד ברוקנטל, דניאל סוחנוב, רן פרטוק, שילה סעדה</td><td class="mg">אביעד פוקס, דודו פרץ</td><td><span class="st">חסרים 2</span></td></tr>
+<tr class="bad wk"><td class="date">16.10<span>יום ו׳</span></td><td class="num">7</td><td class="num">8</td><td><b>אביעד פוקס</b>, אוהד משולם, ליאל דיין, אלעד ברוקנטל, יפתח גונן, אברהם מנגיסטו, יונתן בוסביב</td><td><b>דודו פרץ</b>, <b>איתי לנקרי</b>, <b>עקיבא</b>, אסף משיח, אלירן בוזגלו, דניאל סוחנוב, רן פרטוק, שילה סעדה</td><td class="mg">אביעד פוקס</td><td><span class="st">חסרים 1</span></td></tr>
+<tr class="bad wk"><td class="date">17.10<span>יום שבת</span></td><td class="num">7</td><td class="num">8</td><td><b>אביעד פוקס</b>, אוהד משולם, ליאל דיין, אלעד ברוקנטל, יפתח גונן, אברהם מנגיסטו, יונתן בוסביב</td><td><b>דודו פרץ</b>, <b>איתי לנקרי</b>, <b>עקיבא</b>, אסף משיח, אלירן בוזגלו, דניאל סוחנוב, רן פרטוק, שילה סעדה</td><td class="mg">אביעד פוקס</td><td><span class="st">חסרים 1</span></td></tr>
+<tr class="ok"><td class="date">18.10<span>יום א׳</span></td><td class="num">11</td><td class="num">4</td><td><b>אביעד פוקס</b>, <b>דודו פרץ</b>, <b>איתי לנקרי</b>, אלירן בוזגלו, ליאל דיין, אלעד ברוקנטל, דניאל סוחנוב, רן פרטוק, שילה סעדה, אברהם מנגיסטו, יונתן בוסביב</td><td><b>עקיבא</b>, אוהד משולם, אסף משיח, יפתח גונן</td><td class="mg">אביעד פוקס, דודו פרץ, איתי לנקרי</td><td><span class="st">תקין</span></td></tr>
+<tr class="ok"><td class="date">19.10<span>יום ב׳</span></td><td class="num">12</td><td class="num">3</td><td><b>אביעד פוקס</b>, <b>איתי לנקרי</b>, <b>עקיבא</b>, אסף משיח, אלירן בוזגלו, ליאל דיין, אלעד ברוקנטל, דניאל סוחנוב, רן פרטוק, שילה סעדה, אברהם מנגיסטו, יונתן בוסביב</td><td><b>דודו פרץ</b>, אוהד משולם, יפתח גונן</td><td class="mg">אביעד פוקס, איתי לנקרי, עקיבא</td><td><span class="st">תקין</span></td></tr>
+<tr class="ok"><td class="date">20.10<span>יום ג׳</span></td><td class="num">11</td><td class="num">4</td><td><b>איתי לנקרי</b>, <b>עקיבא</b>, אסף משיח, אלירן בוזגלו, אלעד ברוקנטל, דניאל סוחנוב, רן פרטוק, שילה סעדה, יפתח גונן, אברהם מנגיסטו, יונתן בוסביב</td><td><b>אביעד פוקס</b>, <b>דודו פרץ</b>, אוהד משולם, ליאל דיין</td><td class="mg">איתי לנקרי, עקיבא</td><td><span class="st">תקין</span></td></tr>
+<tr class="ok"><td class="date">21.10<span>יום ד׳</span></td><td class="num">11</td><td class="num">4</td><td><b>אביעד פוקס</b>, <b>איתי לנקרי</b>, <b>עקיבא</b>, אסף משיח, אלירן בוזגלו, אלעד ברוקנטל, דניאל סוחנוב, רן פרטוק, שילה סעדה, יפתח גונן, אברהם מנגיסטו</td><td><b>דודו פרץ</b>, אוהד משולם, ליאל דיין, יונתן בוסביב</td><td class="mg">אביעד פוקס, איתי לנקרי, עקיבא</td><td><span class="st">תקין</span></td></tr>
+<tr class="ok"><td class="date">22.10<span>יום ה׳</span></td><td class="num">11</td><td class="num">4</td><td><b>אביעד פוקס</b>, <b>דודו פרץ</b>, <b>איתי לנקרי</b>, <b>עקיבא</b>, אסף משיח, אלירן בוזגלו, אלעד ברוקנטל, דניאל סוחנוב, רן פרטוק, שילה סעדה, יפתח גונן</td><td>אוהד משולם, ליאל דיין, אברהם מנגיסטו, יונתן בוסביב</td><td class="mg">אביעד פוקס, דודו פרץ, איתי לנקרי, עקיבא</td><td><span class="st">תקין</span></td></tr>
+<tr class="bad wk"><td class="date">23.10<span>יום ו׳</span></td><td class="num">7</td><td class="num">8</td><td><b>עקיבא</b>, אוהד משולם, אסף משיח, אלירן בוזגלו, ליאל דיין, דניאל סוחנוב, שילה סעדה</td><td><b>אביעד פוקס</b>, <b>דודו פרץ</b>, <b>איתי לנקרי</b>, אלעד ברוקנטל, רן פרטוק, יפתח גונן, אברהם מנגיסטו, יונתן בוסביב</td><td class="mg">עקיבא</td><td><span class="st">חסרים 1</span></td></tr>
+<tr class="bad wk"><td class="date">24.10<span>יום שבת</span></td><td class="num">7</td><td class="num">8</td><td><b>עקיבא</b>, אוהד משולם, אסף משיח, אלירן בוזגלו, ליאל דיין, דניאל סוחנוב, שילה סעדה</td><td><b>אביעד פוקס</b>, <b>דודו פרץ</b>, <b>איתי לנקרי</b>, אלעד ברוקנטל, רן פרטוק, יפתח גונן, אברהם מנגיסטו, יונתן בוסביב</td><td class="mg">עקיבא</td><td><span class="st">חסרים 1</span></td></tr>
+<tr class="edge"><td class="date">25.10<span>יום א׳</span></td><td class="num">8</td><td class="num">7</td><td><b>אביעד פוקס</b>, <b>דודו פרץ</b>, <b>עקיבא</b>, אוהד משולם, אסף משיח, ליאל דיין, אברהם מנגיסטו, יונתן בוסביב</td><td><b>איתי לנקרי</b>, אלירן בוזגלו, אלעד ברוקנטל, דניאל סוחנוב, רן פרטוק, שילה סעדה, יפתח גונן</td><td class="mg">אביעד פוקס, דודו פרץ, עקיבא</td><td><span class="st">בדיוק 8</span></td></tr>
+<tr class="edge"><td class="date">26.10<span>יום ב׳</span></td><td class="num">8</td><td class="num">7</td><td><b>אביעד פוקס</b>, <b>דודו פרץ</b>, <b>עקיבא</b>, אסף משיח, ליאל דיין, אלעד ברוקנטל, אברהם מנגיסטו, יונתן בוסביב</td><td><b>איתי לנקרי</b>, אוהד משולם, אלירן בוזגלו, דניאל סוחנוב, רן פרטוק, שילה סעדה, יפתח גונן</td><td class="mg">אביעד פוקס, דודו פרץ, עקיבא</td><td><span class="st">בדיוק 8</span></td></tr>
+<tr class="bad"><td class="date">27.10<span>יום ג׳</span></td><td class="num">6</td><td class="num">9</td><td><b>דודו פרץ</b>, <b>איתי לנקרי</b>, אלעד ברוקנטל, רן פרטוק, אברהם מנגיסטו, יונתן בוסביב</td><td><b>אביעד פוקס</b>, <b>עקיבא</b>, אוהד משולם, אסף משיח, אלירן בוזגלו, ליאל דיין, דניאל סוחנוב, שילה סעדה, יפתח גונן</td><td class="mg">דודו פרץ, איתי לנקרי</td><td><span class="st">חסרים 2</span></td></tr>
+<tr class="edge"><td class="date">28.10<span>יום ד׳</span></td><td class="num">8</td><td class="num">7</td><td><b>אביעד פוקס</b>, <b>דודו פרץ</b>, <b>איתי לנקרי</b>, אלעד ברוקנטל, רן פרטוק, יפתח גונן, אברהם מנגיסטו, יונתן בוסביב</td><td><b>עקיבא</b>, אוהד משולם, אסף משיח, אלירן בוזגלו, ליאל דיין, דניאל סוחנוב, שילה סעדה</td><td class="mg">אביעד פוקס, דודו פרץ, איתי לנקרי</td><td><span class="st">בדיוק 8</span></td></tr>
+<tr class="bad"><td class="date">29.10<span>יום ה׳</span></td><td class="num">5</td><td class="num">10</td><td><b>אביעד פוקס</b>, <b>דודו פרץ</b>, אלעד ברוקנטל, דניאל סוחנוב, יפתח גונן</td><td><b>איתי לנקרי</b>, <b>עקיבא</b>, אוהד משולם, אסף משיח, אלירן בוזגלו, ליאל דיין, רן פרטוק, שילה סעדה, אברהם מנגיסטו, יונתן בוסביב</td><td class="mg">אביעד פוקס, דודו פרץ</td><td><span class="st">חסרים 3</span></td></tr>
+<tr class="bad wk"><td class="date">30.10<span>יום ו׳</span></td><td class="num">5</td><td class="num">10</td><td><b>דודו פרץ</b>, אוהד משולם, ליאל דיין, דניאל סוחנוב, רן פרטוק</td><td><b>אביעד פוקס</b>, <b>איתי לנקרי</b>, <b>עקיבא</b>, אסף משיח, אלירן בוזגלו, אלעד ברוקנטל, שילה סעדה, יפתח גונן, אברהם מנגיסטו, יונתן בוסביב</td><td class="mg">דודו פרץ</td><td><span class="st">חסרים 3</span></td></tr>
+<tr class="bad wk"><td class="date">31.10<span>יום שבת</span></td><td class="num">5</td><td class="num">10</td><td><b>דודו פרץ</b>, אוהד משולם, ליאל דיין, דניאל סוחנוב, רן פרטוק</td><td><b>אביעד פוקס</b>, <b>איתי לנקרי</b>, <b>עקיבא</b>, אסף משיח, אלירן בוזגלו, אלעד ברוקנטל, שילה סעדה, יפתח גונן, אברהם מנגיסטו, יונתן בוסביב</td><td class="mg">דודו פרץ</td><td><span class="st">חסרים 3</span></td></tr>
+<tr class="ok"><td class="date">1.11<span>יום א׳</span></td><td class="num">9</td><td class="num">6</td><td><b>אביעד פוקס</b>, <b>דודו פרץ</b>, <b>איתי לנקרי</b>, אוהד משולם, אלירן בוזגלו, ליאל דיין, אלעד ברוקנטל, דניאל סוחנוב, שילה סעדה</td><td><b>עקיבא</b>, אסף משיח, רן פרטוק, יפתח גונן, אברהם מנגיסטו, יונתן בוסביב</td><td class="mg">אביעד פוקס, דודו פרץ, איתי לנקרי</td><td><span class="st">תקין</span></td></tr>
+<tr class="ok"><td class="date">2.11<span>יום ב׳</span></td><td class="num">13</td><td class="num">2</td><td><b>אביעד פוקס</b>, <b>דודו פרץ</b>, <b>איתי לנקרי</b>, <b>עקיבא</b>, אוהד משולם, אלירן בוזגלו, ליאל דיין, אלעד ברוקנטל, דניאל סוחנוב, שילה סעדה, יפתח גונן, אברהם מנגיסטו, יונתן בוסביב</td><td>אסף משיח, רן פרטוק</td><td class="mg">אביעד פוקס, דודו פרץ, איתי לנקרי, עקיבא</td><td><span class="st">תקין</span></td></tr>
+<tr class="ok"><td class="date">3.11<span>יום ג׳</span></td><td class="num">13</td><td class="num">2</td><td><b>דודו פרץ</b>, <b>איתי לנקרי</b>, <b>עקיבא</b>, אוהד משולם, אסף משיח, אלירן בוזגלו, אלעד ברוקנטל, דניאל סוחנוב, רן פרטוק, שילה סעדה, יפתח גונן, אברהם מנגיסטו, יונתן בוסביב</td><td><b>אביעד פוקס</b>, ליאל דיין</td><td class="mg">דודו פרץ, איתי לנקרי, עקיבא</td><td><span class="st">תקין</span></td></tr>
+</tbody></table></div>
+<div class="note">מאור פנטה אינו בסבב הזה.</div>
+</body>
+</html>
